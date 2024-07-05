@@ -4,7 +4,6 @@ FOLLOWERS = 'followers_1.json'
 FOLLOWING = 'following.json'
 
 parsed_followers = []
-parsed_following = []
 
 with open(FOLLOWERS) as ers:
     loaded_followers = json.load(ers)
